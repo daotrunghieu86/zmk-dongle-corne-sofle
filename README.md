@@ -24,8 +24,6 @@ Phải:  Delete | Enter   | SYM | Command | Option
 
 - Encoder trái: tăng/giảm âm lượng.
 - Encoder phải: Page Up/Page Down.
-- Nhấn encoder trái: Mute.
-- Nhấn encoder phải: Globe/Fn để đổi ngôn ngữ trên macOS.
 
 ## Lưu ý trước khi flash
 
