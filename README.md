@@ -2,7 +2,7 @@
 
 Đây là repo firmware tổng hợp, có hỗ trợ dongle rời cho máy tính không có Bluetooth.
 
-## Sofle macOS keymap V1
+## Sofle macOS developer keymap V2
 
 Keymap nằm tại `config/sofle.keymap` và giữ nguyên thứ tự phần cứng 58 phím cùng hai nút nhấn encoder.
 
@@ -16,14 +16,19 @@ Phải:  Delete | Enter   | SYM | Command | Option
 ### Layers
 
 - `BASE`: QWERTY dành cho macOS.
-- `NAV`: phím mũi tên, Home/End, Page Up/Page Down và các phím tắt Undo/Cut/Copy/Paste.
+- `NAV`: browser history, mũi tên, word/line navigation, Page Up/Page Down và tab navigation.
 - `SYM`: số, ngoặc và ký hiệu thường dùng khi lập trình.
-- `SYS`: giữ đồng thời `NAV + SYM` để chọn/xóa Bluetooth profile, chỉnh media/độ sáng hoặc reset.
+- `SYS`: giữ đồng thời `NAV + SYM` để dùng F1–F12, Bluetooth, media, độ sáng, reset hoặc bật `MOUSE`.
+- `MOUSE`: tại `SYS`, nhấn phím vật lý `M` để bật/tắt; có cursor, scroll, Back/Forward và ba nút chuột. Nhấn `Esc` hoặc `M` để thoát.
 
 ### Encoders
 
-- Encoder trái: tăng/giảm âm lượng.
-- Encoder phải: Page Up/Page Down.
+- Encoder trái: chuyển macOS Space/Workspace trước hoặc sau; nhấn để mở Mission Control.
+- Encoder phải: chuyển tab trước hoặc sau; nhấn để đóng tab hiện tại.
+
+### Đổi ngôn ngữ macOS
+
+Giữ `NAV`, giữ phím vật lý `S` (Control), sau đó nhấn `Space`. Tổ hợp gửi `Control + Space` mà không cần một phím Globe riêng.
 
 ## Lưu ý trước khi flash
 
