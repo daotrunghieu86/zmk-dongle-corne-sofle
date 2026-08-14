@@ -9,8 +9,8 @@ Keymap nằm tại `config/sofle.keymap` và giữ nguyên thứ tự phần c�
 ### Thumb cluster
 
 ```text
-Trái:  Option | Command | NAV | Space | Backspace
-Phải:  Delete | Enter   | SYM | Command | Option
+Trái:  Option | Command | NAV | Enter | Backspace
+Phải:  Delete | Space   | SYM | Command | Option
 ```
 
 ### Layers
